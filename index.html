@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boaba Coffee — кофейня в центре Кишинёва</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="#">boaba<span>.</span>coffee</a>
+    <nav>
+      <a href="#menu">Меню</a>
+      <a href="#about">О нас</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#book" class="btn btn-small">Забронировать</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-text">
+      <p class="eyebrow">центр Кишинёва · с 8:00 до 22:00</p>
+      <h1>Кофе, который хочется пить медленно</h1>
+      <p class="lead">Обжариваем зерно сами раз в неделю. Завтраки весь день, домашняя выпечка и тихий зал на втором этаже для работы.</p>
+      <div class="hero-actions">
+        <a href="#book" class="btn">Забронировать столик</a>
+        <a href="#menu" class="btn btn-ghost">Смотреть меню</a>
+      </div>
+      <ul class="facts">
+        <li><b>12</b> сортов зерна</li>
+        <li><b>40</b> мест</li>
+        <li><b>Wi‑Fi</b> и розетки</li>
+      </ul>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="cup">
+        <div class="steam"><i></i><i></i><i></i></div>
+        <div class="cup-body"><div class="latte"></div></div>
+        <div class="cup-handle"></div>
+        <div class="saucer"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="menu" class="section">
+  <div class="wrap">
+    <h2>Меню</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Флэт уайт</h3>
+        <p>Двойной ристретто и бархатное молоко.</p>
+        <span class="price">45 лей</span>
+      </article>
+      <article class="card">
+        <h3>Фильтр дня</h3>
+        <p>Воронка или аэропресс, зерно меняется каждую неделю.</p>
+        <span class="price">40 лей</span>
+      </article>
+      <article class="card">
+        <h3>Сырники</h3>
+        <p>С домашним вареньем и сметаной, подаём весь день.</p>
+        <span class="price">75 лей</span>
+      </article>
+      <article class="card">
+        <h3>Плацинда</h3>
+        <p>С брынзой или тыквой, печём утром.</p>
+        <span class="price">35 лей</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section alt">
+  <div class="wrap about">
+    <div>
+      <h2>О нас</h2>
+      <p>Мы небольшая семейная кофейня. Зерно берём у проверенных обжарщиков, молоко у фермы под Оргеевом, выпечку делаем сами.</p>
+      <p>Днём у нас работают и учатся, вечером встречаются с друзьями. Можно прийти с собакой.</p>
+    </div>
+    <ul class="hours">
+      <li><span>Пн–Пт</span><span>8:00–22:00</span></li>
+      <li><span>Сб–Вс</span><span>9:00–23:00</span></li>
+      <li><span>Завтраки</span><span>весь день</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="reviews" class="section">
+  <div class="wrap">
+    <h2>Отзывы</h2>
+    <div class="cards">
+      <blockquote class="card">«Лучший флэт уайт в центре, и тихо даже в обед.»<cite>Ирина</cite></blockquote>
+      <blockquote class="card">«Сырники как у бабушки. Хожу по субботам.»<cite>Андрей</cite></blockquote>
+      <blockquote class="card">«Удобно работать: розетки у каждого стола.»<cite>Михай</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section id="book" class="section alt">
+  <div class="wrap book">
+    <div>
+      <h2>Забронировать столик</h2>
+      <p>Оставьте заявку, мы перезвоним в течение 15 минут и подтвердим бронь.</p>
+    </div>
+    <form id="form" class="form">
+      <input name="name" placeholder="Имя" required>
+      <input name="phone" type="tel" placeholder="Телефон" required>
+      <div class="row">
+        <input name="date" type="date" required>
+        <input name="time" type="time" required>
+      </div>
+      <select name="guests">
+        <option>2 гостя</option>
+        <option>3–4 гостя</option>
+        <option>5 и больше</option>
+      </select>
+      <button class="btn" type="submit">Отправить заявку</button>
+      <p class="ok" hidden>Спасибо! Скоро перезвоним.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">boaba.coffee · демо-сайт, кофейня выдуманная</div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
